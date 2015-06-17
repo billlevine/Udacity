@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<link href="./catclickermvw.css" rel="stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	</head>
+	<title>CatClicker MVW</title>
+
+	<body>
+		<section id="allcatstuff">
+			<div id="catlist">
+				<h1>Available Cats</h1>
+				<ul id="catlist"></ul>
+			</div>
+			<div id="currentcat">
+				<h1 id="current_catname" align="center">SampleCat</h1>
+				<img id="current_catpic" src="./thecat.jpg">
+				<p id="current_clicks" align="center">some clicks</p>
+			</div>
+			<button class="admin-controls" id="adminbtn" type="button">Admin</button>
+			<div id="catadmin" class="hidden">
+				<p>Admin controls</p>
+				<form id="adminform">Cat Name:<br>
+					<input type="text" name="catname"><br>Cat URL:<br>
+					<input type="text" name="caturl"><br>Cat Count:<br>
+					<input type="text" name="catcount"><br>
+					<button type="button" id="adminapply">Apply</button>
+					<button type="button" id="admincancel">Cancel</button>
+				</form>
+			</div>
+		</section>
+	</body>
+
+	<script src="./app.js"></script>
+</html>
+

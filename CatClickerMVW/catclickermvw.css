@@ -1,0 +1,32 @@
+h1 {
+	color: blue;
+}
+
+section#allcatstuff {
+	height: 600px;
+	width: 100%;
+	overflow: auto;
+}
+
+div#catlist {
+	float: left;
+	width: 20%;
+	height: auto;
+}
+
+div#currentcat {
+	width: 70%;
+	margin-left: 10%;
+	float: right;
+	height: auto;
+}
+
+.admin-controls {
+	height: 20px;
+	width: 20%;
+	float: left;
+}
+
+.hidden {
+	visibility: hidden;
+}
